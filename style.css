@@ -1,0 +1,122 @@
+.body {
+  display: flex;
+  align-items: center;
+  max-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hublogo {
+  /* Add your styling properties here */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.wallpaper {
+  max-width: 90%;
+  height: auto; /* Fix typo and use height */
+}
+
+.text {
+  font-weight: bold; /* Use numeric value or 'bold' */
+  font-size: 11px;
+  color: rgb(69, 69, 69);
+}
+
+.layer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  background-color: #d9d9d9;
+  padding: 0px 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.unes {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+  
+}
+.first,.second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: grey;
+  
+  
+}
+.section
+{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.text{
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.middle
+{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  
+  padding: 0px 30px;
+}
+.smalldiv
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #d9d9d9;
+  flex-direction: column;
+  width: 200px;
+  height: 210px;
+}
+.img
+{
+  width: 140px;
+  height: 130px;
+
+}
+.blue-button {
+  background-color: #6eb7e4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: end;
+}
+
+.blue-button:hover {
+  background-color: darkblue; /* Change the color when hovered */
+}
