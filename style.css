@@ -1,7 +1,7 @@
 .body
 {
   display: flex;
-  
+  font-family: 'Poppins', sans-serif;
   
 
 }
@@ -119,3 +119,29 @@
   color: gray;
 
 }
+.computer-img-btns
+{
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+   width: 100%;
+}
+.computer-img-btns button{
+  font-size: 21px;
+  margin-right: 50px ;
+
+}
+.blue-button
+{
+  background-color: rgb(27, 99, 255);
+  border: 1px solid  rgb(27, 99, 255);
+}
+.white-button
+{
+  border: 1px solid  rgb(27, 99, 255);
+  color:  rgb(27, 99, 255);
+  background-color: white;
+}
+
+
+
