@@ -168,13 +168,20 @@
 
 
 
+.blue-button:hover {
+  background-color: #1565c0;
+  border-color: #1565c0;
+  color: white;
+}
 
-.blue-button:hover,
+
 .white-button:hover {
-  background-color: #1565c0; 
+  background-color: #1565c0;
+  border-color: #1565c0;
+  color: white;
 }
 
 
 .account .user-img:hover {
-  opacity: 0.7; 
+  opacity: 0.7;
 }
