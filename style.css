@@ -336,9 +336,7 @@ body{
     margin: 10px;
     margin-left: 20px;
    
-    git add .
-    git commit -m "Your commit message here"
-    git push origin master
+    
 }
 .feat-paragraph{
     word-spacing: 5px;
@@ -456,6 +454,12 @@ body{
 
     font-size: 23px;
     color: gray;
+
+}
+.box1
+{
+    position: relative;
+   right:10px
 
 }
 
