@@ -2,6 +2,7 @@
     --primary-color: rgb(39,118,234);
     --secondary-color: rgb(235, 235, 235);
     --third-color: rgb(200, 199, 199);
+    --fourth-color: rgb(10,28,68);
 }
 
 footer {
@@ -192,7 +193,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -2;
+    z-index: -1;
 }
 
 .bigtxt {
@@ -206,7 +207,7 @@ body {
     margin: 16px;
     margin-bottom: 0;
     position: relative;
-    z-index: 2;
+
 }
 
 .bigtxt span {
@@ -584,3 +585,184 @@ background-color: #333;
     margin-right: 10px;
     background-color: var(--primary-color);
 }
+.main-tenders{
+    display: flex;
+    flex-direction: row;
+
+}
+.form-div{
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    margin: 20px;
+    width: 320px;
+    height: fit-content;
+    
+
+
+
+}
+.search-tender{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--fourth-color);
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0px;
+    border-top-left-radius: 7px ;
+    border-top-right-radius: 7px ;
+}
+.search-tender span{
+    margin: 0px 10px;
+}
+.search-span{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: var(--fourth-color) ;
+    font-size: 18px;
+
+}
+.tender-search{
+    padding: 0;
+    margin: 10px;
+    
+}
+.tender-search input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    width: 100%; 
+    box-sizing: border-box; /* Include padding and border in the total width */
+}
+.tender-search button{
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+.tenders-div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    color: white;
+    margin: 20px;
+    margin-left: 0;
+}
+.tender-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--fourth-color);
+    width: 100%;
+    padding: 20px 20px ;
+}
+.bar-txt{
+    display: flex;
+    flex-direction: column;
+}
+.bar-imgs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bar-imgs img{
+    margin: 0px  10px;
+}
+.bar-txt .title{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.bar-txt .sub{
+    font-size: 29px;
+}
+.tender-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.tender-card{
+    margin: 10px;
+    border-radius: 7px;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.tender-number{
+    color: white;
+    background-color: rgb(39,118,234);
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 7px ;
+    border-top-right-radius: 7px ;
+
+}
+.tender-big-txt{
+    display: flex;
+    max-width: 350px;
+    color: var(--fourth-color);
+    margin: 10px 10px;
+    word-spacing: 30px;
+    font-size: 17px;
+}
+.tender-small-txt{
+    display: flex;
+    flex-direction: column;
+    color: var(--third-color);
+    margin: 0px 10px;
+    word-spacing: 10px;
+    font-size: 125x;
+}
+.tender-location-supply{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 17px;
+    color: var(--fourth-color);
+
+}
+.tender-location-supply .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tender-location-supply img{
+    margin: 10px;
+}
+.tender-bottom{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.tender-bottom-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tender-bottom-imgs {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tender-bottom-imgs img{
+
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    margin: 0px 5px;
+    
+
+}
+
