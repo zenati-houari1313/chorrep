@@ -865,6 +865,10 @@ background-color: #333;
     margin-left: 10px;
     margin-right: 10px;
 }
+.top{
+    display: flex;
+    flex-direction: row;
+}
 .tender2-infos{
     display: flex;
     border-top-left-radius: 20px;
@@ -873,5 +877,140 @@ background-color: #333;
     width: 100%;
 
 }
+.tender2-infos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.tenders2-info-left{
+    display: flex;
+    flex-direction: column;
+}
+.Tender-Overview{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgba(27, 27, 27, 0.5);
+    border-radius: 20px;
+    width: 340px;
+}
+.Tender-Overview .country,.Tender-Overview .cost ,.Tender-Overview .type,.Tender-Overview .status{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.Tender-Overview .second{
+    display: flex;
+    width: 150px;
+    margin-right: 20px;
+}
+.Tender-Overview .first{
+    font-weight: bold;
+    width: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.Tender-Overview .number{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 150px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+.Tender-Overview .overview{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: var(--fourth-color);
+    font-weight: bold;
+}
+.Tender-Overview button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 211, 0);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 70px;
+    margin: 15px -20px;
+}
+.product-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 10px 0 rgba(27, 27, 27, 0.5);
+        border-radius: 20px;
+        height: 100%;
+        width: 340px;
+        margin-left: 50px;
+    }
+.info-tittle{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: var(--fourth-color);
+    font-weight: bold;
+    
+}
+.product-info .name,.product-info .sectors{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin: 20px 20px;
+
+}
+.product-info .first{
+    font-weight: bold;
+}
+.keyword-tags{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin: 20px 20px;
+
+}
+.keyword-tags .item{
+    width: fit-content;
+    padding: 2px 30px;
+    border-radius: 20px;
+    background-color: var(--fourth-color);
+    color: white;
+    margin-right:  10px;
+    margin-top: 10px;
+    font-size: 10;
+    font-weight: lighter;
+}
+.client-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgba(27, 27, 27, 0.5);
+    border-radius: 20px;
+    width: 340px;
+}
+
+
+
 
 
