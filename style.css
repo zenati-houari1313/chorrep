@@ -865,9 +865,20 @@ background-color: #333;
     margin-left: 10px;
     margin-right: 10px;
 }
+.tenders2-info-left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
 .top{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
 }
 .tender2-infos{
     display: flex;
@@ -892,13 +903,14 @@ background-color: #333;
     flex-direction: column;
     box-shadow: 0 0 10px 0 rgba(27, 27, 27, 0.5);
     border-radius: 20px;
-    width: 340px;
+    width: 350px;
 }
 .Tender-Overview .country,.Tender-Overview .cost ,.Tender-Overview .type,.Tender-Overview .status{
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 18px;
 
 }
 .Tender-Overview .second{
@@ -944,7 +956,7 @@ background-color: #333;
     border-radius: 15px;
     color: white;
     font-size: 20px;
-    padding: 10px 70px;
+    padding: 10px 80px;
     margin: 15px -20px;
 }
 .product-info{
@@ -973,9 +985,10 @@ background-color: #333;
     display: flex;
     flex-direction: column;
     width: 100%;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding-left: 20px;
     margin: 20px 20px;
+    font-size: 18px;
 
 }
 .product-info .first{
@@ -1007,9 +1020,210 @@ background-color: #333;
     flex-direction: column;
     box-shadow: 0 0 10px 0 rgba(27, 27, 27, 0.5);
     border-radius: 20px;
-    width: 340px;
+    width: 100%;
+}
+.client-tittle{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: var(--fourth-color);
+    font-weight: bold;
+    
+}
+.client-details .name, .client-details .phone ,.client-details .pin ,.client-details .adress, .client-details .email{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    font-size: 18px;
+}
+.client-details .first,.client-details .name{
+    font-weight: bold;
+
+}
+.client-details .first{
+    margin-left: 30px;
+    
+}
+.client-details .second{
+    display: flex;
+    width: 400px;
+    flex-wrap: nowrap;
+    margin-right: 100px;
+
+}
+.client-details .btn-div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: -20px;
+    box-sizing: border-box ;
+
+}
+.client-details button{
+    padding: 10px 40px;
+    margin-right: 60px ;
+}
+.ipdates-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #F8F8F8;
+    box-shadow: 0 0 10px 0 rgba(27, 27, 27, 0.5);
+    padding: 20px 0 ;
 }
 
+.ipdates-container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.ipdates-container .column1,
+.ipdates-container .column2 {
+    margin: 5px 10px;
+    display: flex;
+    justify-self: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.ipdates-container .column1 span,
+.ipdates-container .column2 span {
+    margin: 10px 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.ipdates-container .column1 span {
+
+    font-weight: bold;
+}
+.ipdates-container .date
+{
+    font-weight: bold;
+}
+
+.ipdates-container .title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: var(--fourth-color);
+    font-weight: bold;
+    
+
+}
+
+
+
+.ipdates-container .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+} 
+
+.ipdates-container .blue-button {
+    background-color: #2776EA;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 10px;
+    height: 40px;
+    width: 175px;
+   
+
+}
+.tenders2-info-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+.related-projects{
+
+    display: flex;
+    flex-direction: column;
+    width : 100%;
+    margin-top: 40px;
+    
+
+}
+.related-projects .gray-bar{
+    display: flex;
+    content: none;
+    height: 100%;
+    width: 2px;
+    background-color: gray;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.related-projects .title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: var(--fourth-color);
+    font-weight: bold;
+    
+
+}
+.related-projects .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.related-projects .content .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.related-projects .content .item .text{
+    display: flex;
+    flex-direction: column;
+}
+.related-projects .content .item img{
+    display: flex;
+    height: 70px;
+    width: auto;
+    background-color: green;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.related-projects .content .item .text span{
+    font-size: 20px;
+}
+.related-projects .content .item .text  .date{
+    font-size: 15px;
+
+}
 
 
 
