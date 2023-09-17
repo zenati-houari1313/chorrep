@@ -1212,11 +1212,13 @@ background-color: #333;
 }
 .related-projects .content .item img{
     display: flex;
-    height: 70px;
+    height: 40px;
     width: auto;
-    background-color: green;
+    background-color: var(--third-color);
     border-radius: 10px;
     margin-right: 10px;
+    padding:20px
+
 }
 .related-projects .content .item .text span{
     font-size: 20px;
